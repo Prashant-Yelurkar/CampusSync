@@ -68,6 +68,6 @@ Thakur College of Engineering and Technology
 ### 📦 Backend
 
 ```bash
-cd CampusSync-Backened
+cd CampusSync
 npm install
 npm expo start    # or nodemon index.js
