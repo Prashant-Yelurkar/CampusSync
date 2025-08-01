@@ -3,8 +3,9 @@
 # dependencies
 node_modules/
 
+# Ignore environment and editor configs
 .env
-.vscode
+.vscode/
 
 # Expo
 .expo/
