@@ -1,50 +1,73 @@
-# Welcome to your Expo app 👋
+# 📚 CampusSync - College ERP System
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+CampusSync is a comprehensive ERP solution tailored for college administration. It streamlines various academic and administrative operations including timetable generation, Bluetooth-based attendance, role-based dashboards, and internal communication.
 
-## Get started
+## 🧠 Project Description
 
-1. Install dependencies
+CampusSync is a full-stack ERP system designed to enhance college management and student engagement. The system includes role-based dashboards for students, faculty, HODs, lab assistants, and the principal. It automates lecture and lab allocation, handles practical batch splitting, generates clash-free timetables, and uses Bluetooth-based proximity detection for attendance.
 
-   ```bash
-   npm install
-   ```
+It also supports push notifications for real-time updates and includes robust admin controls.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Features
 
-In the output, you'll find options to open the app in a
+- 🧑‍🏫 **Role-based dashboards**  
+  (Students, Faculty, HOD, Lab Assistants, Principal)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- 🧾 **Automated Timetable Generation**  
+  Handles labs, batches, room allocation, and avoids subject clashes
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- 📍 **Bluetooth-based Attendance**  
+  Detect nearby student devices for proximity-based presence marking
 
-## Get a fresh project
+- 🔔 **Push Notifications**  
+  Real-time alerts for updates, announcements, and schedule changes
 
-When you're ready, run:
+- 📊 **Analytics & Reporting**  
+  Track attendance, faculty workload, and class coverage
+
+- 📁 **Academic Calendar Support**  
+  Exclude holidays/events from scheduling
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech         | Description                      |
+|--------------|----------------------------------|
+| **React Native (Expo)** | Frontend for mobile and web platforms |
+| **Node.js**   | Backend server logic             |
+| **MongoDB**   | NoSQL database for all modules   |
+| **Socket.io / Expo Push API** | For real-time updates and notifications |
+| **Bluetooth API (React Native BLE)** | For attendance system              |
+
+---
+
+## 👨‍💻 Team Members
+
+| Name               | Role                            |
+|--------------------|---------------------------------|
+| **Prashant Yelurkar** | Backend Developer, Timetable Logic, Attendance |
+| **Sahul**          | React Native UI Components      |
+| **Saakshi**        | Figma UI Designer, Frontend Layouts |
+
+---
+
+## 🧑‍🏫 Project Guide
+
+**Dr. Prachi Janrao**  
+Head of Department  
+Department of Artificial Intelligence & Data Science  
+Thakur College of Engineering and Technology
+
+---
+
+## ⚙️ How to Run
+
+### 📦 Backend
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+cd CampusSync-Backened
+npm install
+npm expo start    # or nodemon index.js
